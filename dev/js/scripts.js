@@ -5,4 +5,4 @@ gsap.registerPlugin(DrawSVGPlugin);
 
 let startTL = gsap.timeline();
 
-startTL.fromTo("#big_logo",{alpha:0, duration:2.3})
+startTL.from("#big_logo",{alpha:0, duration:2.3})
