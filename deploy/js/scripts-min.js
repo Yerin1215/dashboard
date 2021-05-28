@@ -1,1 +1,1 @@
-import{gsap}from"gsap";let startTL=gsap.timeline();startTL.to("#progress_bar_black_overlay",{duration:1,opacity:10});
+import{gsap}from"gsap";let startTL=gsap.timeline();startTL.to("#progress_bar",{duration:3,opacity:10});
