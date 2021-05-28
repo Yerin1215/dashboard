@@ -1,8 +1,10 @@
 import { gsap } from "gsap";
-import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+// import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 
-gsap.registerPlugin(DrawSVGPlugin);
+// gsap.registerPlugin(DrawSVGPlugin);
 
 let startTL = gsap.timeline();
 
-startTL.from("#big_logo",{alpha:0, duration:2.3})
+startTL
+.to("#progress_bar_black_overlay",{duration: 1, opacity: 10});
+
