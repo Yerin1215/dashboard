@@ -1,9 +1,28 @@
 import { gsap } from "gsap";
-// import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+import { GSDevTools } from "gsap/GSDevTools";
 
-// gsap.registerPlugin(DrawSVGPlugin);
+import { logoAnimationTL } from "./logoAnimation"
+import { frameTL } from "./frame"
 
-let startTL = gsap.timeline();
 
-startTL.to("#progress_bar",{duration: 3,opacity: 10});
 
+
+gsap.registerPlugin(GSDevTools);
+
+let mainTL = gsap.timeline();
+
+mainTL.add(logoAnimationTL)
+      // .addLabel("marker")
+      .add(frameTL);
+    
+
+
+
+
+
+      // mainTL.play("marker");
+      mainTL.play();
+
+      // console.log(numberThing);
+      
+      // GSDevTools.create();
