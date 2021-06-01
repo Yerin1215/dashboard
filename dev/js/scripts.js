@@ -3,6 +3,7 @@ import { GSDevTools } from "gsap/GSDevTools";
 
 import { logoAnimationTL } from "./logoAnimation"
 import { frameTL } from "./frame"
+import { driveTL } from "./drive"
 
 
 
@@ -13,7 +14,8 @@ let mainTL = gsap.timeline();
 
 mainTL.add(logoAnimationTL)
       // .addLabel("marker")
-      .add(frameTL);
+      .add(frameTL)
+      .add(driveTL);
     
 
 
