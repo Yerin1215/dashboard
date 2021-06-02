@@ -1,1 +1,0 @@
-import{gsap}from"gsap";import{DrawSVGPlugin}from"gsap/DrawSVGPlugin";gsap.registerPlugin(DrawSVGPlugin);export let driveTL=gsap.timeline();driveTL.to("#D",{opacity:1,scale:2,x:"+=30",y:"+=100"});
