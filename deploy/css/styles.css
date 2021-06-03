@@ -382,6 +382,18 @@ p {
   padding: 0;
 }
 
+.paragraph {
+  font-family: forma-djr-text, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.head {
+  font-family: forma-djr-text, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* =============
     Buttons
 ============= */
