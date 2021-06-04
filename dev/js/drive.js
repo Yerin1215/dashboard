@@ -14,7 +14,10 @@ driveTL.to("#D", {duration:"1.2", opacity:"1", scale:1.6, x:"+=14", y:"+=100"})
         .to("#car,#batterygradient_1_, #batterygradient,#rectangle,#distancenumber,#distanceunit", {display:"block"}, "-=0.3")
         .to("#first_line_1_",{duration:0.15, scaleY:1.5,yoyo:true, repeat:-1})
         .to("#second_line",{duration:0.15, scaleY:1.5,yoyo:true, repeat:-1})
-        .to("#third_line",{duration:0.15, scaleY:1.5,yoyo:true, repeat:-1});
+        .to("#third_line",{duration:0.15, scaleY:1.5,yoyo:true, repeat:-1})
+        .to("#batterytext", {duration:"1", opacity:"0"})
+        .to("#batterytext2", {display:"block"}, "-=0.3")
+        .to("#rectangle", { y:"+=50"}, "-=0.3");
 
 
 
