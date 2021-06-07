@@ -8,12 +8,12 @@ import { driveTL } from "./drive"
 
 
 
+
 gsap.registerPlugin(GSDevTools);
 
 let mainTL = gsap.timeline();
 
 mainTL.add(logoAnimationTL)
-      // .addLabel("marker")
       .add(frameTL)
       .add(driveTL);
     
